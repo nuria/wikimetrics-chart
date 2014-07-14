@@ -8,19 +8,19 @@ The data graphed is served by [Wikimetrics](https://metrics.wmflabs.org/).
 
 To use:
 
-1. Install bower
+* Install bower
     ```
     npm install -g bower
     ```
 
-2. Install wikimetrics component 
+* Install wikimetrics component 
     ```
     bower install wikimetrics-chart
     ```
 
 This will install wikimetrics-chart and all its dependencies to ./bower-components
 
-3. Use wikimetrics-chart in your page. An example of usage:
+* Use wikimetrics-chart in your page. An example of usage:
     
 ```
     <head> 
