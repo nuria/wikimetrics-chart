@@ -7,29 +7,20 @@ It uses google charts to graph . The data is served by [Wikimetrics](https://met
 To use:
 
 1. Install bower
-    npm install -g bower
+ npm install -g bower
+
 2. Install wikimetrics component 
+    
+ bower install wikimetrics-chart
 
+This will install wikimetrics-chart and all its dependencies to ./bower-components
 
-
-Info
------
-Prototype displays [Newly Registered User](https://meta.wikimedia.org/wiki/Research:Newly_registered_user)
-data.
-
-Datafiles are included with prototype at this time. Data will be feched from wikimetrics once public
-data is available on the production instance.
-
-Public files are deployed (for now)
-only to [Wikimetrics Staging] (https://metrics-staging.wmflabs.org/static/public/datafiles/)
-
-Example Web Component usage:
-
-    <html> 
+3. Use wikimetrics-chart in your page. An example of usage:
+    
     <head> 
         <title> Google Chart visualization of Newly Registered Users via Web Component</title>
         <script src="./bower_components/platform/platform.js"></script>
-        <link rel="import" href="./wikimetrics-chart/wikimetrics-chart.html">
+        <link rel="import" href="./bower_components/wikimetrics-chart/wikimetrics-chart.html">
          
     </head>
     <body unresolved>
@@ -43,4 +34,17 @@ Example Web Component usage:
     </body>
 
     </html>
+
+
+Info
+-----
+Prototype displays [Newly Registered User](https://meta.wikimedia.org/wiki/Research:Newly_registered_user)
+data.
+
+Datafiles are included with prototype at this time. Data will be feched from wikimetrics once public
+data is available on the production instance.
+
+Public files are deployed (for now)
+only to [Wikimetrics Staging] (https://metrics-staging.wmflabs.org/static/public/datafiles/)
+
 
