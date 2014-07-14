@@ -9,16 +9,20 @@ The data graphed is served by [Wikimetrics](https://metrics.wmflabs.org/).
 To use:
 
 1. Install bower
-    `npm install -g bower`
+    ```
+    npm install -g bower
+    ```
 
 2. Install wikimetrics component 
-    `bower install wikimetrics-chart`
+    ```
+    bower install wikimetrics-chart
+    ```
 
 This will install wikimetrics-chart and all its dependencies to ./bower-components
 
 3. Use wikimetrics-chart in your page. An example of usage:
     
-<pre>
+```
     <head> 
         <title> Google Chart visualization of Newly Registered Users via Web Component</title>
         <script src="./bower_components/platform/platform.js"></script>
@@ -36,7 +40,7 @@ This will install wikimetrics-chart and all its dependencies to ./bower-componen
     </body>
 
     </html>
-</pre>
+```
 
 Info
 -----
